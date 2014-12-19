@@ -1,6 +1,6 @@
 use Test::More qw( no_plan );
 
-BEGIN { use_ok( 'Version::Compare', '0.01' ); }
+BEGIN { use_ok( 'Version::Compare', '0.1.5' ); }
 
 # Test version_compare
 {

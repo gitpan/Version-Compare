@@ -1,9 +1,6 @@
 NAME
     Version::Compare - Compare version strings
 
-VERSION
-    version 0.14
-
 SYNOPSIS
         use Version::Compare;
 
@@ -25,6 +22,10 @@ SUBROUTINES/METHODS
 
     0.0 < 0.5 < 0.10 < 0.99 < 1 < 1.0~rc1 < 1.0 < 1.0+b1 < 1.0+nmu1 < 1.1 <
     2.0
+
+  semver_compare
+    Compare two semantic version strings as defined by the Semantic
+    Versioning spec 2.0.0.
 
   cmp
     See version_compare.
@@ -75,7 +76,7 @@ AUTHOR
     Dominik Schulz <dominik.schulz@gauner.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2012 by Dominik Schulz.
+    This software is copyright (c) 2014 by Dominik Schulz.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

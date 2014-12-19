@@ -5,6 +5,12 @@ This is the README file for Version-Compare, compare version strings.
 Version-Compare provides a module to
 compare version strings.
 
+## Semantic Versioning
+
+This module optionally supports Semantic Versioning spec v2.0.0.
+
+See http://semver.org/spec/v2.0.0.html.
+
 ## Installation
 
 This package uses Dist::Zilla.

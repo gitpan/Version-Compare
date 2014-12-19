@@ -1,10 +1,7 @@
 Revision history for Version-Compare
 
-0.14	2012-11-11
-	First public release.
+0.1.5   2014-12-19
+        Support Semantiv Versioning 2.0.0.
 
-0.11	2012-06-05
-	Version bump for compatiblity reasons.
-
-0.01    2012-06-02
-        First version, released on an unsuspecting world.
+0.14	  2012-11-11
+	      First public release.

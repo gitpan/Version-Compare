@@ -8,9 +8,24 @@ BEGIN {
 
 use strict;
 use warnings;
-use Test::More;
 
-eval 'use Test::NoTabs';
-plan skip_all => 'Test::NoTabs required' if $@;
+# this test was generated with Dist::Zilla::Plugin::NoTabsTests 0.08
 
-all_perl_files_ok();
+use Test::More 0.88;
+use Test::NoTabs;
+
+my @files = (
+    'lib/Version/Compare.pm',
+    't/00-load.t',
+    't/manifest.t',
+    't/pod-coverage.t',
+    't/pod.t',
+    't/release-eol.t',
+    't/release-no-tabs.t',
+    't/release-pod-syntax.t',
+    't/semver.t',
+    't/versions.t'
+);
+
+notabs_ok($_) foreach @files;
+done_testing;
