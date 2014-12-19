@@ -1,5 +1,8 @@
 Revision history for Version-Compare
 
+0.15.0  2014-12-19
+        Reslove version ordering confusion.
+
 0.1.5   2014-12-19
         Support Semantiv Versioning 2.0.0.
 

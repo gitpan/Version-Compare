@@ -19,5 +19,5 @@ requires:
 resources:
   bugtracker: https://github.com/gittex/Version-Compare/issues
   repository: git://github.com/gittex/Version-Compare.git
-version: 0.1.5
+version: 0.15.0
 x_authority: cpan:TEX

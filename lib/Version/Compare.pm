@@ -1,5 +1,5 @@
 package Version::Compare;
-$Version::Compare::VERSION = '0.1.5';
+$Version::Compare::VERSION = '0.15.0';
 BEGIN {
   $Version::Compare::AUTHORITY = 'cpan:TEX';
 }
